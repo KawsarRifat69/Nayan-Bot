@@ -59,7 +59,7 @@ module.exports = {
       const apiUrl = apiData.data.sim;
 
 
-      if (!msg) {
+      if (!delu msg) {
         const greetings = [
           "দেলু মাদারচোদ",
           "দেলু কে পুটকি মারতে চাই",
@@ -170,13 +170,13 @@ module.exports = {
 
         1. 🤖 ${prefix}${cmd} askinfo [question]: Get information about a specific question.
 
-        2. 📚 ${prefix}${cmd} teach ask=[question]&ans=[answer]: Teach the bot a new question and answer pair.
+        2. 📚 ${prefix}${cmd} teach ask=[how are you]&ans=[fine]: Teach the bot a new question and answer pair.
 
         3. ❌ ${prefix}${cmd} delete ask=[question]&ans=[answer]: Delete a specific question and answer pair. (Admin only)
 
         4. 📊 ${prefix}${cmd} info: Get the total number of questions and answers.
 
-        5. 👋 ${prefix}${cmd} hi: Send a random greeting.
+        5. 👋 ${prefix}${cmd} Kawsar: Send a random greeting.
 
         6. 🎨 ${prefix}${cmd} textType [type]: Set the text type (options: serif, sans, italic, italic-sans, medieval, normal).
 
