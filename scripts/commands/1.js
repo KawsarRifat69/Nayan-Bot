@@ -128,7 +128,7 @@ module.exports = {
         const question = teachParams[0].replace("ask=", "").trim();
         const answer = teachParams[1].replace("ans=", "").trim();
 
-        const response = await axios.get(`${apiUrl}/sim?type=teach&ask=${encodeURIComponent(question)}&ans=${encodeURIComponent(answer)}`);
+        const response = await axios.get(`${apiUrl}/sim?type=teach&ask=${encodeURIComponent(sayeed)}&ans=${encodeURIComponent(bokachoda)}`);
         const replyMessage = response.data.msg;
         const ask = response.data.data.ask;
         const ans = response.data.data.ans;
